@@ -1,11 +1,24 @@
 # 📊 Data Jobs Dashboard (Power BI)
 
 ## 📚 Project Inspiration
+
 This project was inspired by the Power BI data analytics tutorial created by Luke Barousse.
 
-I followed Luke’s tutorial to build the main **Data Jobs Dashboard**, which analyzes job postings in the data industry. The tutorial guided the process of building the data model, writing DAX measures, and creating the primary dashboard visuals using the provided dataset.
+I followed Luke’s tutorial to build the **main Data Jobs Dashboard**, which analyzes job postings in the data industry. The tutorial guided the process of building the data model, creating DAX measures, and designing the primary dashboard visuals using the provided dataset.
 
-While the main dashboard structure closely follows the tutorial, I expanded the project by designing an additional **drill-through dashboard** to explore individual job roles in greater detail.
+To expand beyond the tutorial, I independently designed and implemented a **Job Title Drill-Through Dashboard**. This additional page allows users to click on a job role from the main dashboard and explore deeper insights about that specific position.
+
+The drill-through dashboard analyzes role-specific information such as:
+
+- salary ranges  
+- remote work availability  
+- degree requirements  
+- health insurance benefits  
+- global job distribution  
+- job posting platforms  
+- job schedule types  
+
+By combining the **tutorial-based main dashboard** with a **custom drill-through analysis page**, this project demonstrates both guided learning and independent Power BI dashboard development.
 
 ---
 
@@ -23,7 +36,7 @@ As someone interested in entering the data field, I often found myself asking qu
 
 This dashboard analyzes a **real-world dataset of 2024 data-related job postings**, containing information about job titles, salaries, required skills, and locations.
 
-The goal is to turn that raw data into clear insights that help answer those questions.
+The goal is to transform raw data into clear insights that help answer those questions.
 
 Designed with **job seekers, career switchers, and aspiring data professionals** in mind, the dashboard provides an interactive way to explore:
 
@@ -31,8 +44,6 @@ Designed with **job seekers, career switchers, and aspiring data professionals**
 - how salaries compare across different data roles  
 - where jobs are located globally  
 - what job platforms and work conditions are common  
-
-By bringing these insights into one place, this project helps make the data job market easier to understand and allows users to quickly identify which skills and career paths are worth focusing on.
 
 ---
 
