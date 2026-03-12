@@ -1,34 +1,72 @@
-# Data Jobs Dashboard (Power BI)
+# 📊 Dashboard Overview
 
-## 📚 Project Inspiration
-This project was inspired by the Power BI data analytics tutorial created by Luke Barousse.
+This Power BI dashboard analyzes 2024 data-related job postings to provide insights into the data job market. It explores salary trends, in-demand skills, job platforms, work conditions, and global job distribution.  
 
-I followed Luke’s tutorial to build the main **Data Jobs Dashboard**, which analyzes job postings in the data industry. The tutorial guided the process of building the data model, writing DAX measures, and creating the primary dashboard visuals using the provided dataset.
+The dashboard was designed to help aspiring data professionals understand what employers are looking for and which skills or career paths are most valuable.
 
-While the main dashboard structure closely follows the tutorial, I expanded the project by designing an additional **drill-through dashboard** to explore individual job roles in greater detail.
+The project consists of multiple interactive views that allow users to explore job market trends and drill deeper into specific roles.
 
 ---
 
-## 🔎 My Custom Addition: Drill-Through Analysis
+# 🖥 Main Data Jobs Dashboard
 
-The **Job Title Drill-Through Dashboard** was designed and implemented independently as an extension of the original project.
+![Main Dashboard](datadashboard%20main.png)
 
-This page allows users to click on a job role from the main dashboard and analyze deeper insights about that role.
+The **Main Data Jobs Dashboard** provides a high-level overview of the data job market.
 
-The drill-through page includes:
+Key insights shown on this page include:
 
-- 💰 Median yearly and hourly salary metrics  
-- 🏠 Work-from-home percentage  
-- 🎓 Jobs that do not mention a degree requirement  
-- 🏥 Jobs offering health insurance  
-- 🌍 Global job distribution map  
-- 💻 Job posting platforms  
-- 📅 Job schedule type distribution  
+• **Total Job Postings** – Displays the total number of data-related job listings in the dataset.  
+• **Skills per Job** – Shows the average number of skills required per job posting.  
+• **Median Salary Metrics** – Highlights the median yearly and hourly salary across all jobs.  
+• **Top Skills in Data** – A bar chart displaying the most frequently mentioned skills in job postings, helping identify which tools and technologies are most in demand.  
+• **Top Paying Data Roles** – Shows which job titles have the highest median salaries.
 
-This addition expands the project beyond the tutorial by introducing advanced Power BI interactivity and deeper role-specific analysis.
+Interactive elements such as **slicers and buttons** allow users to filter the dashboard by job title or country and toggle between job counts and percentages.
 
-By combining the tutorial dashboard with a custom drill-through analysis page, the project demonstrates both guided learning and independent dashboard development.
+---
 
+# 🔎 Job Title Drill-Through Dashboard
+
+![Drill Through Dashboard](datadashboard%20drill.png)
+
+The **Job Title Drill-Through Dashboard** allows users to explore detailed insights for a specific job role.
+
+By clicking on a job title in the main dashboard, users can drill through to this page to see role-specific analytics.
+
+This page includes:
+
+• **Median Yearly and Hourly Salary Gauges** – Displays salary ranges and averages for the selected role.  
+• **Work From Home Percentage** – Shows how often the role appears in remote job listings.  
+• **Degree Requirement Percentage** – Indicates how many job postings mention a degree requirement.  
+• **Health Insurance Availability** – Displays the proportion of jobs that offer health insurance benefits.  
+• **Global Job Distribution Map** – Shows where job postings for the selected role are located around the world.  
+• **Job Posting Platforms** – Highlights which platforms (LinkedIn, Indeed, etc.) most commonly host postings for the role.  
+• **Job Schedule Type** – Displays the distribution of full-time, part-time, contract, and internship roles.
+
+This drill-through page enhances the dashboard by providing **role-level insights**, allowing users to analyze the characteristics of specific data careers.
+
+---
+
+# 📈 Salary Comparison Analysis
+
+## Job Percent vs Median Hourly Salary
+
+![Hourly Salary Comparison](job%20percent%20and%20median%20hourly%20sal.png)
+
+This visualization compares **job availability with hourly salary levels** across different data roles.
+
+It helps highlight which roles offer higher pay relative to how frequently they appear in job postings.
+
+---
+
+## Job Percent vs Median Yearly Salary
+
+![Yearly Salary Comparison](job%20percent%20and%20median%20yearly%20salary.png)
+
+This chart compares **job demand with yearly salary levels**, helping identify roles that combine strong demand with high compensation.
+
+It provides insight into which data careers may offer the best long-term opportunities.
 ---
 
 # 🎯 Project Goal
